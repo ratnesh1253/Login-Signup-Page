@@ -4,12 +4,12 @@ This repository contains the landing page and authentication pages for "InternCr
 
 ## Pages
 
-- **Landing Page**: `index.html`
+- **Landing Page**: `Index.html`
   - Features a welcome message and sign-in and login buttons.
 - **Login Page**: `Login.html`
   - Allows users to enter their email/username and password to log in.
   - Provides options to log in using Google, Facebook, Twitter, or LinkedIn.
-- **Sign Up Page**: `signup.html`
+- **Sign Up Page**: `SignUp.html`
   - Allows new users to sign up by providing their email/username and password.
   - Provides options to sign up using Google, Facebook, Twitter, or LinkedIn.
 
