@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.landing,
+.Login,
+.SignUp {
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px grey;
+}
+
+.landing {
+    padding-top: 0;
+}
+
+.landing .logo {
+    height: 170px;
+    width: 170px;
+    object-fit: contain;
+}
+
+
+.landing h3 {
+    margin-top: 10px;
+}
+
+.buttons button {
+    color: white;
+    background: #3434fd;
+    font-size: 25px;
+    padding: 5px 20px;
+    margin: 40px 20px;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 50px;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    background: #1616ff;
+}
+
+.buttons a {
+    cursor: default;
+}
+
+.Login span,
+.SignUp span {
+    color: #1616ff;
+}
+
+.Login #email,
+.SignUp #email {
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.Login #password,
+.SignUp #password {
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px;
+    margin-top: 0;
+    border: 2px solid black;
+}
+
+.Login #Login-botton,
+.SignUp #SignUp-botton {
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 20px;
+    color: white;
+    background-color: #3434fd;
+    border: none;
+    border-radius: 50px;
+}
+
+.Login #Login-botton:hover {
+    cursor: pointer;
+    background-color: #1616ff;
+}
+
+.SignUp #SignUp-botton:hover {
+    cursor: pointer;
+    background-color: #1616ff;
+}
+
+.Login .links,
+.SignUp .links {
+    display: block;
+}
+
+.Login a,
+.SignUp a {
+    text-decoration: none;
+}
+
+.Login img,
+.SignUp img {
+    height: 40px;
+    width: 40px;
+    margin: 20px 10px;
+}
